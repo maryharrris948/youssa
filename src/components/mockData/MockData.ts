@@ -369,6 +369,12 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         dateTime: 'May 28, 2025',
+        description: 'Credit from Chase rice management - XXXXXX4733',
+        status: 'Success',
+        amount_usd: 500000
+      },
+      {
+        dateTime: 'May 28, 2025',
         description: 'VAT Fee - XXXXXX8273',
         status: 'Success',
         amount_usd: -5
