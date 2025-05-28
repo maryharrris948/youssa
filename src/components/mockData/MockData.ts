@@ -350,7 +350,7 @@ export const mockAccounts: Account[] = [
     holder: {
       fullName: 'Brittany Fabre',
       profileImgUrl: '',
-      email: 'b@gamil.com',
+      email: 'bfabre200@gmail.com',
       dateCreated: '5/28/2025', // m/d/y
       username: 'brittfabre',
       password: 'Bfabrecr7'
