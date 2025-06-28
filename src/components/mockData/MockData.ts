@@ -392,5 +392,84 @@ export const mockAccounts: Account[] = [
         amount_usd: 10
       }
     ]
+  },
+  {
+    account_id: 'ACC004',
+    holder: {
+      fullName: 'Anthony Carol',
+      profileImgUrl: '',
+      email: 'a*@gmail.com',
+      dateCreated: '6/28/2025', // m/d/y
+      username: 'AnthonyCarolC123',
+      password: 'Spadaro10'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 5450670.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '237832',
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        "Transfer declined, to proceed with the transfer, please ensure all tax debts are paid in full, with a minimum payment of $500. This requirement aligns with regulatory guidelines. For any questions or concerns, please don't hesitate to contact us. Thank you.",
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'June 28, 2025',
+        description: 'Wire Transfer - XXXXXX4733',
+        status: 'Pending',
+        amount_usd: 45350800,
+      },
+      {
+        dateTime: 'May 2, 2025',
+        description: 'Wire Transfer - XXXXXX4733',
+        status: 'Success',
+        amount_usd: 5000,
+      },
+      {
+        dateTime: 'March 16, 2025',
+        description: 'Wire Transfer - XXXXXX4733',
+        status: 'Success',
+        amount_usd: 6450,
+      },
+      {
+        dateTime: 'January 7, 2025',
+        description: 'Walmart - XXXXXX4733',
+        status: 'Success',
+        amount_usd: -3500,
+      },
+      {
+        dateTime: 'April 8, 2024',
+        description: 'Wire Transfer - XXXXXX4733',
+        status: 'Success',
+        amount_usd: 750,
+      },
+      {
+        dateTime: 'April 5, 2024',
+        description: 'Wire Transfer - XXXXXX4733',
+        status: 'Success',
+        amount_usd: 900,
+      },
+      {
+        dateTime: 'October 23, 2023',
+        description: 'CVS Pharmacy - XXXXXX4733',
+        status: 'Success',
+        amount_usd: -1250,
+      },
+      {
+        dateTime: 'September 10, 2023',
+        description: 'CVS Pharmacy - XXXXXX4733',
+        status: 'Success',
+        amount_usd: -3500,
+      },
+      {
+        dateTime: 'May 28, 2025',
+        description: 'Wire Transfer - XXXXXX4733',
+        status: 'Success',
+        amount_usd: 500000,
+      },
+    ]
   }
 ];
