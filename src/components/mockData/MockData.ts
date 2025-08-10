@@ -400,12 +400,13 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'a*@gmail.com',
       dateCreated: '6/28/2025', // m/d/y
+      dateUpdated: '8/10/2025', // m/d/y
       username: 'AnthonyCarolC123',
       password: 'Spadaro10'
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 5450670.0
+      balance_usd: 48801470.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
