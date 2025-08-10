@@ -419,7 +419,7 @@ export const mockAccounts: Account[] = [
       {
         dateTime: 'June 28, 2025',
         description: 'Wire Transfer - XXXXXX4733',
-        status: 'Pending',
+        status: 'Success',
         amount_usd: 45350800,
       },
       {
