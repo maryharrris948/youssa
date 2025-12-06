@@ -421,56 +421,494 @@ export const mockAccounts: Account[] = [
         dateTime: 'June 28, 2025',
         description: 'Wire Transfer - XXXXXX4733',
         status: 'Success',
-        amount_usd: 45350800,
+        amount_usd: 45350800
       },
       {
         dateTime: 'May 2, 2025',
         description: 'Wire Transfer - XXXXXX4733',
         status: 'Success',
-        amount_usd: 5000,
+        amount_usd: 5000
       },
       {
         dateTime: 'March 16, 2025',
         description: 'Wire Transfer - XXXXXX4733',
         status: 'Success',
-        amount_usd: 6450,
+        amount_usd: 6450
       },
       {
         dateTime: 'January 7, 2025',
         description: 'Walmart - XXXXXX4733',
         status: 'Success',
-        amount_usd: -3500,
+        amount_usd: -3500
       },
       {
         dateTime: 'April 8, 2024',
         description: 'Wire Transfer - XXXXXX4733',
         status: 'Success',
-        amount_usd: 750,
+        amount_usd: 750
       },
       {
         dateTime: 'April 5, 2024',
         description: 'Wire Transfer - XXXXXX4733',
         status: 'Success',
-        amount_usd: 900,
+        amount_usd: 900
       },
       {
         dateTime: 'October 23, 2023',
         description: 'CVS Pharmacy - XXXXXX4733',
         status: 'Success',
-        amount_usd: -1250,
+        amount_usd: -1250
       },
       {
         dateTime: 'September 10, 2023',
         description: 'CVS Pharmacy - XXXXXX4733',
         status: 'Success',
-        amount_usd: -3500,
+        amount_usd: -3500
       },
       {
         dateTime: 'May 28, 2025',
         description: 'Wire Transfer - XXXXXX4733',
         status: 'Success',
-        amount_usd: 500000,
+        amount_usd: 500000
+      }
+    ]
+  },
+  {
+    account_id: 'ACC005',
+    holder: {
+      fullName: 'Jeffrey J Smith',
+      email: 'j*@gamil.com',
+      dateCreated: '12/6/2025', // m/d/y
+      username: 'Jeff$7',
+      password: 'Smith$7'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 15894000.76
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '23783',
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        "To proceed with the transfer, please ensure all tax debts are paid in full, with a minimum payment of $500. This requirement aligns with regulatory guidelines. For any questions or concerns, please don't hesitate to contact us. Thank you.",
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'December 28, 2024',
+        description: 'Payroll Deposit - XXXXXX4821',
+        status: 'Success',
+        amount_usd: 335200
       },
+      {
+        dateTime: 'October 15, 2024',
+        description: 'Zelle Transfer Incoming - XXXXXX7094',
+        status: 'Success',
+        amount_usd: 88750
+      },
+      {
+        dateTime: 'September 12, 2024',
+        description: 'Amazon Marketplace - XXXXXX1934',
+        status: 'Success',
+        amount_usd: -89.99
+      },
+      {
+        dateTime: 'July 2, 2024',
+        description: 'Bank Transfer Incoming - XXXXXX6407',
+        status: 'Success',
+        amount_usd: 250000
+      },
+      {
+        dateTime: 'March 3, 2024',
+        description: 'Chase EBay - XXXXXX5276',
+        status: 'Success',
+        amount_usd: -6900
+      },
+      {
+        dateTime: 'December 19, 2023',
+        description: 'Target - XXXXXX3159',
+        status: 'Success',
+        amount_usd: -49
+      },
+      {
+        dateTime: 'September 10, 2023',
+        description: 'Tax Refund Deposit - XXXXXX9082',
+        status: 'Success',
+        amount_usd: 251800
+      },
+      {
+        dateTime: 'February 12, 2023',
+        description: 'Payroll Deposit - XXXXXX7721',
+        status: 'Success',
+        amount_usd: 350700
+      },
+      {
+        dateTime: 'January 7, 2023',
+        description: 'Interest Credit - XXXXXX6134',
+        status: 'Success',
+        amount_usd: 1366.12
+      },
+      {
+        dateTime: 'November 30, 2022',
+        description: 'Refund - XXXXXX5599',
+        status: 'Success',
+        amount_usd: 12400
+      },
+      {
+        dateTime: 'September 1, 2022',
+        description: 'Payroll Deposit - XXXXXX1402',
+        status: 'Success',
+        amount_usd: 319000
+      },
+      {
+        dateTime: 'February 1, 2022',
+        description: 'Utility Bill Payment - XXXXXX7744',
+        status: 'Success',
+        amount_usd: -210
+      },
+      {
+        dateTime: 'January 15, 2022',
+        description: 'Bank Transfer Incoming - XXXXXX9917',
+        status: 'Success',
+        amount_usd: 754430
+      },
+      {
+        dateTime: 'December 20, 2021',
+        description: 'Bonus Deposit - XXXXXX8470',
+        status: 'Success',
+        amount_usd: 1500
+      },
+      {
+        dateTime: 'October 3, 2021',
+        description: 'Refund - XXXXXX2301',
+        status: 'Success',
+        amount_usd: 200
+      },
+      {
+        dateTime: 'August 15, 2021',
+        description: 'ATM Withdrawal - INTERAC - XXXXXX6503',
+        status: 'Success',
+        amount_usd: -17000
+      },
+      {
+        dateTime: 'May 18, 2021',
+        description: 'Payroll Deposit - XXXXXX9134',
+        status: 'Success',
+        amount_usd: 2900
+      },
+      {
+        dateTime: 'April 10, 2021',
+        description: 'Store Purchase WALMART - XXXXXX5102',
+        status: 'Success',
+        amount_usd: -89.23
+      },
+      {
+        dateTime: 'December 31, 2020',
+        description: 'Interest Credit - XXXXXX3110',
+        status: 'Success',
+        amount_usd: 5.32
+      },
+      {
+        dateTime: 'September 21, 2020',
+        description: 'Deposit - XXXXXX9205',
+        status: 'Success',
+        amount_usd: 900
+      },
+      {
+        dateTime: 'June 17, 2020',
+        description: 'Web Bill Payment - MASTERCARD - XXXXXX4487',
+        status: 'Success',
+        amount_usd: -350
+      },
+      {
+        dateTime: 'January 4, 2020',
+        description: 'Walmart card YHF - XXXXXX3128',
+        status: 'Success',
+        amount_usd: 7000
+      },
+      {
+        dateTime: 'November 2, 2019',
+        description: 'Direct Deposit - XXXXXX6655',
+        status: 'Success',
+        amount_usd: 2800
+      },
+      {
+        dateTime: 'October 1, 2019',
+        description: 'Bank Transfer Incoming - XXXXXX2148',
+        status: 'Success',
+        amount_usd: 120
+      },
+      {
+        dateTime: 'September 18, 2019',
+        description: 'Airline Ticket Delta - XXXXXX7473',
+        status: 'Success',
+        amount_usd: -480
+      },
+      {
+        dateTime: 'May 10, 2019',
+        description: 'Store Purchase COSTCO - XXXXXX9044',
+        status: 'Success',
+        amount_usd: -210
+      },
+      {
+        dateTime: 'February 2, 2019',
+        description: 'Interest Credit - XXXXXX3782',
+        status: 'Success',
+        amount_usd: 4.12
+      },
+      {
+        dateTime: 'December 11, 2018',
+        description: 'Employer Bonus Deposit - XXXXXX1920',
+        status: 'Success',
+        amount_usd: 5000
+      },
+      {
+        dateTime: 'June 15, 2018',
+        description: 'Bank Transfer Incoming - XXXXXX7292',
+        status: 'Success',
+        amount_usd: 450
+      },
+      {
+        dateTime: 'April 29, 2018',
+        description: 'Store Purchase BEST BUY - XXXXXX8230',
+        status: 'Success',
+        amount_usd: -1299
+      },
+      {
+        dateTime: 'January 10, 2018',
+        description: 'Interest Credit - XXXXXX6602',
+        status: 'Success',
+        amount_usd: 1095.66
+      },
+      {
+        dateTime: 'December 11, 2016',
+        description: 'Employer Bonus Deposit - XXXXXX5119',
+        status: 'Success',
+        amount_usd: 5000
+      },
+      {
+        dateTime: 'September 2, 2016',
+        description: 'Interest Credit - XXXXXX2780',
+        status: 'Success',
+        amount_usd: 3.01
+      },
+      {
+        dateTime: 'April 21, 2016',
+        description: 'Store Purchase SHELL GAS - XXXXXX1824',
+        status: 'Success',
+        amount_usd: -40.22
+      },
+      {
+        dateTime: 'February 18, 2016',
+        description: 'Transfer Incoming - XXXXXX9051',
+        status: 'Success',
+        amount_usd: 890
+      },
+      {
+        dateTime: 'May 7, 2015',
+        description: 'Store Purchase MTA/NYC TRANSIT - XXXXXX4132',
+        status: 'Success',
+        amount_usd: -5.0
+      },
+      {
+        dateTime: 'May 6, 2015',
+        description: 'Store Purchase DUNKIN DONUTS - XXXXXX2518',
+        status: 'Success',
+        amount_usd: -4.88
+      },
+      {
+        dateTime: 'May 5, 2015',
+        description: 'Store Purchase DORIAN GRAY - XXXXXX9047',
+        status: 'Success',
+        amount_usd: -22.84
+      },
+      {
+        dateTime: 'February 10, 2015',
+        description: 'Payroll Deposit - XXXXXX7395',
+        status: 'Success',
+        amount_usd: 2400
+      },
+      {
+        dateTime: 'January 5, 2015',
+        description: 'Interest Credit - XXXXXX5001',
+        status: 'Success',
+        amount_usd: 3.05
+      },
+      {
+        dateTime: 'December 19, 2014',
+        description: 'Deposit - XXXXXX6122',
+        status: 'Success',
+        amount_usd: 500
+      },
+      {
+        dateTime: 'October 15, 2014',
+        description: 'Interest Credit - XXXXXX9117',
+        status: 'Success',
+        amount_usd: 2.9
+      },
+      {
+        dateTime: 'March 28, 2014',
+        description: 'ATM Withdrawal - XXXXXX3744',
+        status: 'Success',
+        amount_usd: -300
+      },
+      {
+        dateTime: 'January 2, 2014',
+        description: 'Transfer Incoming - XXXXXX1180',
+        status: 'Success',
+        amount_usd: 110
+      },
+      {
+        dateTime: 'December 1, 2012',
+        description: 'Bonus Deposit - XXXXXX4009',
+        status: 'Success',
+        amount_usd: 2600
+      },
+      {
+        dateTime: 'October 5, 2012',
+        description: 'Store Purchase CVS PHARMACY - XXXXXX9321',
+        status: 'Success',
+        amount_usd: -18.47
+      },
+      {
+        dateTime: 'March 12, 2012',
+        description: 'Deposit - XXXXXX7190',
+        status: 'Success',
+        amount_usd: 400
+      },
+      {
+        dateTime: 'January 20, 2012',
+        description: 'Interest Credit - XXXXXX2994',
+        status: 'Success',
+        amount_usd: 2.19
+      },
+      {
+        dateTime: 'December 5, 2011',
+        description: 'Bonus Deposit - XXXXXX1594',
+        status: 'Success',
+        amount_usd: 1300
+      },
+      {
+        dateTime: 'September 8, 2011',
+        description: 'Payroll Deposit - XXXXXX8861',
+        status: 'Success',
+        amount_usd: 2500
+      },
+      {
+        dateTime: 'January 22, 2011',
+        description: 'INTEREST CREDIT - XXXXXX3334',
+        status: 'Success',
+        amount_usd: 3.02
+      },
+      {
+        dateTime: 'January 9, 2011',
+        description: 'Store Purchase BEST BUY - XXXXXX6720',
+        status: 'Success',
+        amount_usd: -310
+      },
+      {
+        dateTime: 'December 12, 2010',
+        description: 'Direct Deposit - XXXXXX5448',
+        status: 'Success',
+        amount_usd: 1900
+      },
+      {
+        dateTime: 'October 20, 2010',
+        description: 'Interest Credit - XXXXXX1103',
+        status: 'Success',
+        amount_usd: 2.12
+      },
+      {
+        dateTime: 'August 8, 2010',
+        description: 'ZELLE ACCT CREDIT - XXXXXX6601',
+        status: 'Success',
+        amount_usd: 1200
+      },
+      {
+        dateTime: 'March 10, 2010',
+        description: 'Utility Payment - XXXXXX2519',
+        status: 'Success',
+        amount_usd: -76.88
+      },
+      {
+        dateTime: 'December 2, 2009',
+        description: 'Deposit - XXXXXX9921',
+        status: 'Success',
+        amount_usd: 300
+      },
+      {
+        dateTime: 'August 1, 2009',
+        description: 'Interest Credit - XXXXXX4688',
+        status: 'Success',
+        amount_usd: 2.1
+      },
+      {
+        dateTime: 'January 10, 2009',
+        description: 'ACH DEBIT CHASE CREDIT CRD - XXXXXX2006',
+        status: 'Success',
+        amount_usd: -15000
+      },
+      {
+        dateTime: 'January 5, 2009',
+        description: 'Truck charges FL DR - XXXXXX5502',
+        status: 'Success',
+        amount_usd: -1300
+      },
+      {
+        dateTime: 'January 1, 2009',
+        description: 'Payroll Deposit - XXXXXX3901',
+        status: 'Success',
+        amount_usd: 2400
+      },
+      {
+        dateTime: 'December 20, 2007',
+        description: 'Bonus - XXXXXX7711',
+        status: 'Success',
+        amount_usd: 900
+      },
+      {
+        dateTime: 'September 22, 2007',
+        description: 'Interest Credit - XXXXXX6224',
+        status: 'Success',
+        amount_usd: 2.78
+      },
+      {
+        dateTime: 'August 1, 2007',
+        description: 'Payroll Deposit - XXXXXX9483',
+        status: 'Success',
+        amount_usd: 2100
+      },
+      {
+        dateTime: 'April 10, 2007',
+        description: 'Store Purchase KMART - XXXXXX2047',
+        status: 'Success',
+        amount_usd: -60.45
+      },
+      {
+        dateTime: 'December 1, 2006',
+        description: 'Deposit - XXXXXX8830',
+        status: 'Success',
+        amount_usd: 150
+      },
+      {
+        dateTime: 'September 16, 2006',
+        description: 'Interest Credit - XXXXXX2291',
+        status: 'Success',
+        amount_usd: 1.99
+      },
+      {
+        dateTime: 'February 16, 2006',
+        description: 'ACH DIRECT DEPOSIT - XXXXXX5104',
+        status: 'Success',
+        amount_usd: 1600
+      },
+      {
+        dateTime: 'January 12, 2006',
+        description: 'Store Purchase SEARS - XXXXXX7749',
+        status: 'Success',
+        amount_usd: -89
+      }
     ]
   }
 ];

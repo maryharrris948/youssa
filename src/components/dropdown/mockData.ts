@@ -67,6 +67,16 @@ export const listBks = [
     logo: "https://i.imgur.com/SjTIG33.png",
   },
   {
+    id: 1327661,
+    name: "Heritage South Community Credit Union",
+    logo: "https://i.postimg.cc/3N8tPfw3/logo.png",
+  },
+  {
+    id: 1327662,
+    name: "Levo Credit Union",
+    logo: "https://i.postimg.cc/T1NJBRSC/QJmuj1k0-400x400.jpg",
+  },
+  {
     id: 14,
     name: "Charles Schwab",
     logo: "https://i.imgur.com/0iY3fGx.png",
