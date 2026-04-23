@@ -249,7 +249,7 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'anabelledevon@gamil.com',
       dateCreated: '5/19/2025', // m/d/y
-      username: 'Dennis4567',
+      username: 'Dennis4567-expired',
       password: 'GodisGood1313'
     },
     bank_details: {
@@ -352,7 +352,7 @@ export const mockAccounts: Account[] = [
       profileImgUrl: '',
       email: 'bfabre200@gmail.com',
       dateCreated: '5/28/2025', // m/d/y
-      username: 'brittfabre',
+      username: 'brittfabre-expired',
       password: 'Bfabrecr7'
     },
     bank_details: {
@@ -401,7 +401,7 @@ export const mockAccounts: Account[] = [
       email: 'a*@gmail.com',
       dateCreated: '6/28/2025', // m/d/y
       dateUpdated: '8/10/2025', // m/d/y
-      username: 'AnthonyCarolC123',
+      username: 'AnthonyCarolC123-expired',
       password: 'Spadaro10'
     },
     bank_details: {
