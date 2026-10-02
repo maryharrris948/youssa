@@ -923,8 +923,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Anthony Spadaro',
       email: 'spadaroanthony321@gamil.com',
       dateCreated: '10/2/2026', // m/d/y
-      username: 'l',
-      password: 'l'
+      username: 'Anthony432',
+      password: 'Tahoka73'
     },
     bank_details: {
       account_type: 'Checking',
