@@ -928,7 +928,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 54301470.00
+      balance_usd: 50897920.00
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -943,31 +943,61 @@ export const mockAccounts: Account[] = [
         dateTime: 'August 20, 2026',
         description: 'WIRE TRANSFER - XXXXX4733',
         status: 'Success',
-        amount_usd: 5500000
+        amount_usd: 5500000.0
       },
       {
         dateTime: 'June 28, 2025',
         description: 'WIRE TRANSFER - XXXXX4733',
         status: 'Success',
-        amount_usd: 45350800
+        amount_usd: 45350800.0
       },
       {
         dateTime: 'May 02, 2025',
         description: 'WIRE TRANSFER - XXXXX4733',
         status: 'Success',
-        amount_usd: 5000
+        amount_usd: 5000.0
       },
       {
         dateTime: 'March 16, 2025',
         description: 'WIRE TRANSFER - XXXXX4733',
         status: 'Success',
-        amount_usd: 6450
+        amount_usd: 6450.0
+      },
+      {
+        dateTime: 'March 06, 2025',
+        description: 'WIRE TRANSFER - XXXXX4733',
+        status: 'Success',
+        amount_usd: 29000.0
+      },
+      {
+        dateTime: 'March 01, 2025',
+        description: 'WIRE TRANSFER - XXXXX4733',
+        status: 'Success',
+        amount_usd: -890.0
       },
       {
         dateTime: 'January 07, 2025',
         description: 'WALMART - XXXXX4733',
         status: 'Success',
-        amount_usd: -3500
+        amount_usd: -3500.0
+      },
+      {
+        dateTime: 'March 02, 2024',
+        description: '⁠CMS - XXXXX4733',
+        status: 'Success',
+        amount_usd: 870.0
+      },
+      {
+        dateTime: 'February 20, 2024',
+        description: 'McKenna Sims - XXXXX4733',
+        status: 'Success',
+        amount_usd: -7000.0
+      },
+      {
+        dateTime: 'February 01, 2024',
+        description: 'WIRE TRANSFER - XXXXX4733',
+        status: 'Success',
+        amount_usd: 5800.0
       },
     ]
   }
