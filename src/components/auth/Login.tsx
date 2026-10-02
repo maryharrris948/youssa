@@ -11,19 +11,23 @@ export default function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
 
-  const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setError('');
+    setLoading(true);
     const userAccount = mockAccounts.find(account => account.holder.username === username);
     if (!userAccount) {
       setError('User not found');
+      setLoading(false);
       return;
     }
     if (userAccount.holder.password !== password) {
       setError('Invalid password');
+      setLoading(false);
       return;
     }
-    // Store user data in localStorage
     localStorage.setItem('loggedInUser', JSON.stringify(userAccount));
     router.push('/dashboard');
   };
@@ -53,8 +57,11 @@ export default function Login() {
             </div>
 
             <div className="flex flex-col items-center justify-between gap-2 mt-6">
-              <button type="submit" className="p-4 py-3 bg-[#53732d] w-full text-white font-semibold">
-                Log On
+              <button type="submit" disabled={loading} className="p-4 py-3 bg-[#53732d] w-full text-white font-semibold flex items-center justify-center">
+                {loading ? (
+                  <span className="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-white border-r-transparent align-middle mr-2" />
+                ) : null}
+                {loading ? 'Logging in...' : 'Log On'}
               </button>
             </div>
           </form>

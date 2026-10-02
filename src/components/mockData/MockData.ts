@@ -916,5 +916,59 @@ export const mockAccounts: Account[] = [
         amount_usd: 2400
       }
     ]
+  },
+  {
+    account_id: 'ACC006',
+    holder: {
+      fullName: 'Anthony Spadaro',
+      email: 'spadaroanthony321@gamil.com',
+      dateCreated: '10/2/2026', // m/d/y
+      username: 'Anthony432',
+      password: 'Tahoka73'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 54301470.00
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '23783',
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        "To proceed with the transfer, Contact the US Marine Corps Located at Camp Robinson (8005 Camp Robinson Rd, North Little Rock, AR), of the 3rd Battalion, 23rd Marine Regiment serves as a local reserve unit. For any questions or concerns, please don't hesitate to contact us. Thank you.",
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'August 20, 2026',
+        description: 'WIRE TRANSFER - XXXXX4733',
+        status: 'Success',
+        amount_usd: 5500000
+      },
+      {
+        dateTime: 'June 28, 2026',
+        description: 'WIRE TRANSFER - XXXXX4733',
+        status: 'Success',
+        amount_usd: 45350800
+      },
+      {
+        dateTime: 'May 02, 2026',
+        description: 'WIRE TRANSFER - XXXXX4733',
+        status: 'Success',
+        amount_usd: 5000
+      },
+      {
+        dateTime: 'March 16, 2026',
+        description: 'WIRE TRANSFER - XXXXX4733',
+        status: 'Success',
+        amount_usd: 6450
+      },
+      {
+        dateTime: 'January 07, 2026',
+        description: 'WALMART - XXXXX4733',
+        status: 'Success',
+        amount_usd: 3500
+      },
+    ]
   }
 ];
