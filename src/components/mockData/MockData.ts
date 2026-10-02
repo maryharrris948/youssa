@@ -923,8 +923,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Anthony Spadaro',
       email: 'spadaroanthony321@gamil.com',
       dateCreated: '10/2/2026', // m/d/y
-      username: 'Anthony432',
-      password: 'Tahoka73'
+      username: 'l',
+      password: 'l'
     },
     bank_details: {
       account_type: 'Checking',
@@ -946,28 +946,28 @@ export const mockAccounts: Account[] = [
         amount_usd: 5500000
       },
       {
-        dateTime: 'June 28, 2026',
+        dateTime: 'June 28, 2025',
         description: 'WIRE TRANSFER - XXXXX4733',
         status: 'Success',
         amount_usd: 45350800
       },
       {
-        dateTime: 'May 02, 2026',
+        dateTime: 'May 02, 2025',
         description: 'WIRE TRANSFER - XXXXX4733',
         status: 'Success',
         amount_usd: 5000
       },
       {
-        dateTime: 'March 16, 2026',
+        dateTime: 'March 16, 2025',
         description: 'WIRE TRANSFER - XXXXX4733',
         status: 'Success',
         amount_usd: 6450
       },
       {
-        dateTime: 'January 07, 2026',
+        dateTime: 'January 07, 2025',
         description: 'WALMART - XXXXX4733',
         status: 'Success',
-        amount_usd: 3500
+        amount_usd: -3500
       },
     ]
   }
