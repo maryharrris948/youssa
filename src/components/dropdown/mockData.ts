@@ -15,6 +15,11 @@ export const listBks = [
     logo: "https://i.imgur.com/xR1FYm0.jpeg",
   },
   {
+    id: 39856325644,
+    name: "The Bank of Missouri",
+    logo: "https://i.postimg.cc/4xb1SmG9/inuiiu.png",
+  },
+  {
     id: 4,
     name: "Citibank",
     // resize: true,
